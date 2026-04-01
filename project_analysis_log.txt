@@ -29,3 +29,7 @@ I also created this file, project_analysis_log.txt, using the nano command so th
 I then verified using the git remote -v command.
 Finally, I typed git push -u origin master to push my files to my GitHub repository.
 
+To make sure all my changes are reflected in GitHub, I typed the following commands:
+	git add .
+	git commit -m "second commit"
+	git push
