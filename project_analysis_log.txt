@@ -1,6 +1,6 @@
 Assignment 1 Analysis Log:
 
-In my BMSC6390 directory, I created an assignment_1 directory using the mkdir command and created the main directory project under it. 
+1. In my BMSC6390 directory, I created an assignment_1 directory using the mkdir command and created the main directory project under it. 
 
 Under project, I created the following directories in this order:
 project/
@@ -16,4 +16,16 @@ In each final directory, I created an empty file using the touch command and had
 
 I also created this file, project_analysis_log.txt, using the nano command so that I am able to edit it. 
 
+2. To initialize a Git Repository, I ran the following commands:
+	git init
+	git add .
+	git commit -m "Initializing git repo"
+
+
+3. In github, I created a new GitHub Repository online called "Hoteit-GenomicAnalysis-AnalysisReport1".
+
+4. To connect my local repo to my GitHub repo, I typed:
+	git remote add origin git@github.com:tamara-hoteit/Hoteit-GenomicAnalysis-AnalysisReport1
+I then verified using the git remote -v command.
+Finally, I typed git push -u origin master to push my files to my GitHub repository.
 
