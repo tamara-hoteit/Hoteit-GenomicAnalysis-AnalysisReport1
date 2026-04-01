@@ -1,0 +1,19 @@
+Assignment 1 Analysis Log:
+
+In my BMSC6390 directory, I created an assignment_1 directory using the mkdir command and created the main directory project under it. 
+
+Under project, I created the following directories in this order:
+project/
+    data/
+       raw/
+       processed/
+    analysis/
+       fastqc/
+       bamqc/
+    scripts/
+
+In each final directory, I created an empty file using the touch command and had all the file naming follow the order <directoryname>_file.txt
+
+I also created this file, project_analysis_log.txt, using the nano command so that I am able to edit it. 
+
+
